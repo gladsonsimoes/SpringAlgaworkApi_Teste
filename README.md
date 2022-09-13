@@ -1,7 +1,7 @@
 # SpringAlgaworkApi_Teste
 Teste de API com Spring Initializr
 
-Usando o Optinal para dar erro  no postman a uma categoria que não existe!   
+Usando o Optinal para dar erro  no postman (404 Not Found) a uma categoria que não existe!   
 
 Optinal :
 
