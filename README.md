@@ -1,7 +1,7 @@
 # SpringAlgaworkApi_Teste
 Teste de API com Spring Initializr
 
-Usando o Optinal para dar erro  no postman (404 Not Found) caso uma categoria que não exista, caso exista dará (200 OK)   
+Usando o Optinal no JAVA para verificar categoria no banco de dados , caso a categoria não exista aparecerá (404 Not Found) , caso exista dará (200 OK)   
 
 Optinal :
 
