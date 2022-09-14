@@ -13,6 +13,28 @@ Optinal:
     }
 ~~~
 
+em aplication.propreties 
+
+~~~java
+spring.jackson.deserialization.fail-on-unknown-properties=true 
+~~~
+esse comando acima é para informar um erro caso coloque mais de uma atributo no JSON no postman que não está indetificado no CategoriaResource
+
+em pom.xml
+~~~xml
+		<dependency>  <!-- excessao  -->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+
+		<!-- mysql -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+~~~
+
 Pois no metodo passado sem essa verificação no banco de dados aparecerá como 200 OK mesmo que a categoria não exista
 
 Sem Optinal:
