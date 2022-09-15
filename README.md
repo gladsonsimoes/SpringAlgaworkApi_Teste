@@ -1,7 +1,7 @@
 # SpringAlgaworkApi_Teste
 
 ## Metodo handleHttpMessageNotReadable 
-~~~~java
+~~~java
 handleHttpMessageNotReadable 
 ~~~
 
