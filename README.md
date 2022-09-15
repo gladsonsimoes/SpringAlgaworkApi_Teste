@@ -20,7 +20,7 @@ handleHttpMessageNotReadable
         return handleExceptionInternal(ex, new Erro(mensagemUsuario, mensagemDesenvolvedor),headers , HttpStatus.BAD_REQUEST,request);
     }
 ~~~
-
+----
 Usando o Optinal no JAVA para verificar categoria no banco de dados , caso a categoria não exista aparecerá (404 Not Found) , caso exista dará (200 OK)   
 
 ## Optinal:
