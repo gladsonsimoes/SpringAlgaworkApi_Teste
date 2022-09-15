@@ -2,6 +2,21 @@
 
 handleHttpMessageNotReadable 
 
+~~~java
+@Override
+    protected ResponseEntity<Object> handleHttpMessageNotReadable(HttpMessageNotReadableException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {
+        return super.handleHttpMessageNotReadable(ex, headers, status, request);
+    }
+~~~
+
+~~~java
+@Override
+    protected ResponseEntity<Object> handleHttpMessageNotReadable(HttpMessageNotReadableException ex, HttpHeaders headers, HttpStatus status, WebRequest request){
+        String mensagemUsuario = messageSource.getMessage("mensagem.invalida" , null , LocaleContextHolder.getLocale());
+        String mensagemDesenvolvedor = ex.getCause().toString();
+        return handleExceptionInternal(ex, new Erro(mensagemUsuario, mensagemDesenvolvedor),headers , HttpStatus.BAD_REQUEST,request);
+    }
+~~~
 
 Usando o Optinal no JAVA para verificar categoria no banco de dados , caso a categoria não exista aparecerá (404 Not Found) , caso exista dará (200 OK)   
 
