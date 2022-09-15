@@ -2,6 +2,8 @@
 
 @ControllerAdvice //controla toda a aplicação
 
+@Autowired //
+
 ## Metodo handleHttpMessageNotReadable 
 ~~~java
 handleHttpMessageNotReadable 
