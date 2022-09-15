@@ -47,3 +47,7 @@ em pom.xml
 			<scope>runtime</scope>
 		</dependency>
 ~~~
+
+handleHttpMessageNotReadable 
+
+
