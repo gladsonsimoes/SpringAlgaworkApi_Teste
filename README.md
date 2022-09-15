@@ -1,5 +1,7 @@
 # SpringAlgaworkApi_Teste
 
+@ControllerAdvice //controla toda a aplicação
+
 ## Metodo handleHttpMessageNotReadable 
 ~~~java
 handleHttpMessageNotReadable 
