@@ -28,6 +28,19 @@ handleHttpMessageNotReadable
 ~~~
 ----
 
+## Metodo handleMethodAr
+
+~~~java
+handleMethodAr
+~~~
+
+~~~java
+@Override
+	protected ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotValidException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {
+		return super.handleMethodArgumentNotValid(ex, headers, status, request);
+	}
+~~~
+
 ## Optinal:
 
 Usando o Optinal no JAVA para verificar categoria no banco de dados , caso a categoria não exista aparecerá (404 Not Found) , caso exista dará (200 OK)   
