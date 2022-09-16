@@ -6,6 +6,13 @@
 
 message SOurce //
 
+-------------
+@NotNull
+@SIze
+------------------------
+@Valid @RequestBody
+-------------------------
+
 ## Metodo handleHttpMessageNotReadable 
 ~~~java
 handleHttpMessageNotReadable 
