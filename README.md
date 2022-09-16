@@ -7,7 +7,7 @@
 message SOurce //
 
 -------------
-@NotNull
+@NotNull //use Ctrl e clique para validation para dá mudada na mensagem
 @SIze
 ------------------------
 @Valid @RequestBody
